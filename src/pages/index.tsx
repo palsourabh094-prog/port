@@ -3,17 +3,13 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 
 import LandingHero from "@/components/landing-hero";
-import SkillsShowcase from "@/components/skills/skills-showcase";
-import ProjectShowcase from "@/components/projects/project-showcase";
-import { PROJECT_SHOWCASE } from "@/data/projects";
-import { SKILLS_DATA } from "@/data/skills";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Home() {
   return (
     <>
       <NextSeo
-        title="Amit Chauhan | Software Developer"
+        title="Sourabh Pal (learning full stack dev and python ) "
         description="Explore the professional portfolio of Amit Chauhan, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
@@ -50,8 +46,6 @@ export default function Home() {
         )}
       </Head>
       <LandingHero />
-      <SkillsShowcase skills={SKILLS_DATA} />
-      <ProjectShowcase projects={PROJECT_SHOWCASE} />
     </>
   );
 }

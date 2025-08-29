@@ -42,20 +42,31 @@ export default function LandingHero() {
                 Sourabh Pal
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                jvgh
+                Learning full stack development,python,ai and ml
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I am a software developer specializing in building
-                high-performance, user-focused web applications. Skilled in{" "}
-                <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
-                an expert in{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+                I am a passionate learner and aspiring software developer,
+                currently learning phase and focused on{" "}
+                <span className="font-semibold text-accent">
+                  Full Stack in Development
+                </span>{" "}
+                and exploring the power of{" "}
+                <span className="font-semibold text-accent">Python</span> in{" "}
+                <span className="font-semibold text-accent">
+                  Artificial Intelligence (AI)
+                </span>{" "}
+                and{" "}
+                <span className="font-semibold text-accent">
+                  Machine Learning (ML)
+                </span>
+                . I enjoy creating dynamic, user-friendly web applications and
+                applying intelligent solutions to real-world problems by
+                combining{" "}
+                <span className="font-semibold text-accent">frontend</span> and{" "}
+                <span className="font-semibold text-accent">backend</span>{" "}
+                technologies with data-driven insights.
               </div>
             </FadeUp>
           </AnimatePresence>
