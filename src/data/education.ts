@@ -2,36 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor Of technology in Computer Science and Data Science ",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Rishihood University ( KPMG )",
+      href: "https://rishihood.edu.in/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: " 2025-2029 ",
+    location: "Sonipat( Delhi NCR ) Haryana ",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "RELEVANT COURSES INCLUDED DATA STRECTURE AND ALGORITHM , WEB DEVELOPMENT, , ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING WITH PYTHON .",
   },
   {
-    title: "Higher Secondary School",
+    title: "DAILY MIRROR PUBLIC SCHOOL",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "",
+      href: "/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2022-2024",
+    location: "INDORE INDIA",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "During my higher secondary education, I focused on building a strong foundation in [Building tech] –  which enhanced my analytical and problem-solving abilities. Studying subjects like Mathematics, Computer Science, alongwith the JEE entrance exam gave me logical thinking skills and the curiosity to explore technology in depth.",
   },
   {
     title: "Secondary School Education",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Shri krishna public school ",
+      href: "/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
-    description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+    date: "2012-2022",
+    location: "INDORE INDIA ",
+    description: "Learned good values,dedication and disciplne..",
   },
 ];

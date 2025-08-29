@@ -1,11 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+import heroProfileImg from "@/public/ch.png";
 import DuotoneImage from "./duotone-image";
 
 export default function AboutHero() {
@@ -34,23 +33,42 @@ export default function AboutHero() {
               Hi, I&apos;m Sourabh Pal
             </h1>
           </FadeUp>
+
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              I&apos;m a curious learner with a strong interest in{" "}
+              <span className="font-semibold text-accent">
+                Full Stack Development
+              </span>{" "}
+              and exploring{" "}
+              <span className="font-semibold text-accent">Python</span> for{" "}
+              <span className="font-semibold text-accent">
+                Artificial Intelligence
+              </span>{" "}
+              and{" "}
+              <span className="font-semibold text-accent">
+                Machine Learning
+              </span>
+              . I&apos;m currently focused on building my foundation step by
+              step, while developing problem-solving and coding skills.
             </p>
           </FadeUp>
+
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest{" "}
-              <Link href="/projects" className="underline underline-offset-4">
-                <span className="text-accent">projects</span>
-              </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              Though I don&apos;t have projects yet, I&apos;m consistently
+              learning and practicing through tutorials, coding exercises, and
+              small experiments. My goal is to grow into a{" "}
+              <span className="font-semibold text-accent">
+                Full Stack Developer
+              </span>{" "}
+              and eventually apply{" "}
+              <span className="font-semibold text-accent">Python</span> &{" "}
+              <span className="font-semibold text-accent">AI/ML</span> to solve
+              real-world challenges.
             </p>
           </FadeUp>
+
           <FadeRight
             key="hero-location"
             duration={0.6}
@@ -67,7 +85,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              INDORE, India
             </span>
           </FadeRight>
         </AnimatePresence>
